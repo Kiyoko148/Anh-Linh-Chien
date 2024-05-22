@@ -1,4 +1,4 @@
-Giới thiệu game:
+# Giới thiệu game:
 
 - Anh Linh Chiến là một tựa game turn-based chiến đấu tự động được mô phỏng dựa trên hệ thống “pet” được gọi là Anh Linh của tựa game Revelation: Thiên Dụ nổi tiếng của nhà phát hành VNG, với 3 loại Tấn Công , Phòng Thủ và Trị Liệu. Sử dụng các loại Anh Linh khác nhau để cùng bản thân vượt qua vô vàn khó khăn, gian nan thử thách. Mỗi Anh Linh đều có sự độc đáo riêng về các hệ chiến đấu cùng với sự tiếp thêm sức mạnh cho Anh Linh đến từ “Hồn Khí” và “Thần Võ” giúp cho người chơi có thể trải nghiệm game với các Anh Linh của bản thân.
 
@@ -24,3 +24,34 @@ Giới thiệu game:
 * Thủy khắc Hỏa và bị Lôi khắc.
 * Quang và Ám khắc chế lẫn nhau.
 * Khi khắc chế sẽ gây thêm 1,5 lần sát thương và tương tự với bị khắc chế.
+
+# Installation:
+
+### Lưu ý nên chạy cmd dưới quyền admin
+
+- 1 - Tải python phiên bản mới nhất
+- 2 - Clone repo từ GitHub và di chuyển vào thư mục:
+
+```
+git clone https://github.com/Kiyoko148/Anh-Linh-Chien.git
+cd <path ti your file>/Anh-Linh-Chien
+```
+
+- 3 - Tạo và kích hoạt môi trường ảo (virtual environment):
+
+```
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+- 4 - Cài đặt các thư viện cần thiết:
+
+```
+pip install -r requirements.txt
+```
+
+- 5 - Chạy project:
+
+```
+python main.py
+```
